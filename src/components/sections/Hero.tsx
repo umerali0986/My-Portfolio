@@ -20,7 +20,7 @@ const Hero = () => {
             <p className="text-lg text-muted-foreground animate-fade-in-up">
               Hello, I'm
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold gradient-text animate-fade-in-up animation-delay-200">u</h1>
+            <h1 className="text-5xl md:text-7xl font-bold gradient-text animate-fade-in-up animation-delay-200">UMER ABUBEKER</h1>
             <p className="text-xl md:text-2xl text-foreground/80 animate-fade-in-up animation-delay-400">
               Full-Stack Software Developer
             </p>
