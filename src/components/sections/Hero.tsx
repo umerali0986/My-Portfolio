@@ -1,17 +1,11 @@
 import { ArrowDown, Download, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
+  return <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Developer workspace" 
-          className="w-full h-full object-cover opacity-20"
-        />
+        <img src={heroImage} alt="Developer workspace" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/70 to-background/90" />
       </div>
 
@@ -26,9 +20,7 @@ const Hero = () => {
             <p className="text-lg text-muted-foreground animate-fade-in-up">
               Hello, I'm
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold gradient-text animate-fade-in-up animation-delay-200">
-              John Developer
-            </h1>
+            <h1 className="text-5xl md:text-7xl font-bold gradient-text animate-fade-in-up animation-delay-200">JohnUMER ABUEKER Developer</h1>
             <p className="text-xl md:text-2xl text-foreground/80 animate-fade-in-up animation-delay-400">
               Full-Stack Software Developer
             </p>
@@ -53,18 +45,10 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 animate-fade-in-up animation-delay-1000">
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-              aria-label="GitHub"
-            >
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="GitHub">
               <Github size={24} />
             </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-              aria-label="LinkedIn"
-            >
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="LinkedIn">
               <Linkedin size={24} />
             </a>
           </div>
@@ -77,8 +61,6 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
