@@ -49,11 +49,11 @@ const Education = () => {
 
         {/* Education Timeline */}
         <div className="space-y-8 mb-16">
-          {educationData.map((edu, index) => <Card key={index} className="bg-gradient-card border-border/50 card-hover">
-              <CardContent className="p-8">
-                <div className="grid lg:grid-cols-3 gap-6">
-                  {/* Main Info */}
-                  <div className="lg:col-span-2 space-y-4">
+            {educationData.map((edu, index) => (
+              <Card key={index} className="bg-gradient-card border-border/50 card-hover">
+                <CardContent className="p-8">
+                  <div className="space-y-4">
+                    {/* Main Info */}
                     <div className="flex items-start justify-between flex-wrap gap-2">
                       <div>
                         <h3 className="text-xl font-semibold text-foreground mb-2">
@@ -63,7 +63,6 @@ const Education = () => {
                           {edu.institution}
                         </p>
                       </div>
-                      
                     </div>
 
                     <div className="flex items-center gap-4 text-muted-foreground text-sm">
@@ -71,35 +70,26 @@ const Education = () => {
                         <Calendar className="w-4 h-4" />
                         {edu.period}
                       </div>
-                      <div className="flex items-center gap-1">
-                        <MapPin className="w-4 h-4" />
-                        {edu.location}
+                    </div>
+
+                    {/* Key Coursework */}
+                    <div>
+                      <h4 className="font-medium text-foreground mb-3 flex items-center gap-2">
+                        <GraduationCap className="w-4 h-4 text-primary" />
+                        Key Coursework
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {edu.coursework.map((course, idx) => (
+                          <Badge key={idx} variant="secondary" className="text-xs">
+                            {course}
+                          </Badge>
+                        ))}
                       </div>
                     </div>
-
-                    <div className="mt-3">
-                      <Badge variant="outline" className="text-sm">
-                        {edu.gpa}
-                      </Badge>
-                    </div>
                   </div>
-
-                  {/* Coursework */}
-                  <div>
-                    <h4 className="font-medium text-foreground mb-3 flex items-center gap-2">
-                      <GraduationCap className="w-4 h-4 text-primary" />
-                      Key Coursework
-                    </h4>
-                    <div className="space-y-2">
-                      {edu.coursework.map((course, idx) => <div key={idx} className="text-sm text-muted-foreground flex items-center">
-                          <span className="w-1.5 h-1.5 bg-primary rounded-full mr-2"></span>
-                          {course}
-                        </div>)}
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>)}
+                </CardContent>
+              </Card>
+            ))}
         </div>
 
         {/* Certifications */}
