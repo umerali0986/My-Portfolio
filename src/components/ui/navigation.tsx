@@ -24,9 +24,9 @@ const Navigation = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/umerabubeker", label: "GitHub" },
+    { icon: Github, href: "https://github.com/umerali0986", label: "GitHub" },
     { icon: Linkedin, href: "https://linkedin.com/in/umerabubeker", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:umer.abubeker@email.com", label: "Email" },
+    { icon: Mail, href: "mailto:umer.ali0986@gmail.com", label: "Email" },
   ];
 
   return (
