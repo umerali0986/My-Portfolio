@@ -24,9 +24,9 @@ const Navigation = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "#contact", label: "Email" },
+    { icon: Github, href: "https://github.com/umerabubeker", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/umerabubeker", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:umer.abubeker@email.com", label: "Email" },
   ];
 
   return (
@@ -67,6 +67,8 @@ const Navigation = () => {
               <a
                 key={social.label}
                 href={social.href}
+                target={social.href.startsWith('http') ? '_blank' : undefined}
+                rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                 className="text-foreground/60 hover:text-primary transition-colors duration-200"
                 aria-label={social.label}
               >
@@ -108,6 +110,8 @@ const Navigation = () => {
                 <a
                   key={social.label}
                   href={social.href}
+                  target={social.href.startsWith('http') ? '_blank' : undefined}
+                  rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="text-foreground/60 hover:text-primary transition-colors duration-200"
                   aria-label={social.label}
                 >

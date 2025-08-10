@@ -45,10 +45,10 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 animate-fade-in-up animation-delay-1000">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="GitHub">
+            <a href="https://github.com/umerabubeker" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="GitHub">
               <Github size={24} />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/umerabubeker" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform" aria-label="LinkedIn">
               <Linkedin size={24} />
             </a>
           </div>
