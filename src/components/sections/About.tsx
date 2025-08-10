@@ -1,32 +1,24 @@
 import { Code, Coffee, Lightbulb, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
-  const highlights = [
-    {
-      icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code"
-    },
-    {
-      icon: Lightbulb,
-      title: "Problem Solving",
-      description: "Turning complex challenges into elegant solutions"
-    },
-    {
-      icon: Coffee,
-      title: "Continuous Learning",
-      description: "Always exploring new technologies and methodologies"
-    },
-    {
-      icon: Heart,
-      title: "User-Focused",
-      description: "Creating experiences that users love and enjoy"
-    }
-  ];
-
-  return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
+  const highlights = [{
+    icon: Code,
+    title: "Clean Code",
+    description: "Writing maintainable, scalable, and efficient code"
+  }, {
+    icon: Lightbulb,
+    title: "Problem Solving",
+    description: "Turning complex challenges into elegant solutions"
+  }, {
+    icon: Coffee,
+    title: "Continuous Learning",
+    description: "Always exploring new technologies and methodologies"
+  }, {
+    icon: Heart,
+    title: "User-Focused",
+    description: "Creating experiences that users love and enjoy"
+  }];
+  return <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -46,17 +38,9 @@ const About = () => {
             </h3>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                I'm a passionate full-stack developer with over 4 years of experience creating 
-                digital solutions that make a difference. My journey began with a curiosity about 
-                how websites work, which quickly evolved into a deep love for coding and problem-solving.
-              </p>
+              <p>I'm a passionate full-stack developer with a solid foundation in web application design, development, testing, and maintenance. My journey began when I was studying for my Bachelor's degree in computer science, when I realized my passion for coding. Since then, there has been something deep down in me that is very eager to become a software developer, which has led me to specialize in my career as a software developer.</p>
               
-              <p>
-                I specialize in modern web technologies including React, Node.js, Python, and cloud services. 
-                What excites me most about development is the opportunity to transform ideas into reality, 
-                creating applications that solve real-world problems and improve people's lives.
-              </p>
+              <p>Skilled in building responsive and scalable web applications using Java, JavaScript, HTML, CSS, and modern frameworks, with practical knowledge in developing REST APIs and user interfaces. A collaborative team player with hands-on experience in agile environments, testing automation, and delivering solutionsthat make a difference. What excites me most about development is the opportunity to transform ideas into reality, creating applications that solve real-world problems and improve people's lives.</p>
               
               <p>
                 When I'm not coding, you'll find me contributing to open-source projects, 
@@ -93,11 +77,7 @@ const About = () => {
 
           {/* Right Column - Highlights */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {highlights.map((highlight, index) => (
-              <Card 
-                key={index} 
-                className="bg-gradient-card border-border/50 card-hover group"
-              >
+            {highlights.map((highlight, index) => <Card key={index} className="bg-gradient-card border-border/50 card-hover group">
                 <CardContent className="p-6 text-center">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:glow-primary transition-all duration-300">
                     <highlight.icon className="w-6 h-6 text-primary-foreground" />
@@ -109,13 +89,10 @@ const About = () => {
                     {highlight.description}
                   </p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
