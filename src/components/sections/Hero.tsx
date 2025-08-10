@@ -38,8 +38,8 @@ const Hero = () => {
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </Button>
-            <Button variant="outline" size="lg" className="border-primary/30 text-primary hover:bg-primary/10">
-              View My Work
+            <Button variant="outline" size="lg" className="border-primary/30 text-primary hover:bg-primary/10" asChild>
+              <a href="#projects">View My Work</a>
             </Button>
           </div>
 
