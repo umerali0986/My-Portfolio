@@ -71,11 +71,17 @@ const Education = () => {
                         <Calendar className="w-4 h-4" />
                         {edu.period}
                       </div>
-                      
+                      <div className="flex items-center gap-1">
+                        <MapPin className="w-4 h-4" />
+                        {edu.location}
+                      </div>
                     </div>
 
-                    {/* Highlights */}
-                    
+                    <div className="mt-3">
+                      <Badge variant="outline" className="text-sm">
+                        {edu.gpa}
+                      </Badge>
+                    </div>
                   </div>
 
                   {/* Coursework */}
