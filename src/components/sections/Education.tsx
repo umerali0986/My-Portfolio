@@ -17,7 +17,7 @@ const Education = () => {
     period: "2024",
     gpa: "Certificate",
     highlights: ["Top 5% of cohort", "Outstanding Project Award", "Peer Mentor"],
-    coursework: ["HTML/CSS/JavaScript", "React & Redux", "Node.js & Express", "MongoDB", "Git & GitHub", "Agile Development"]
+    coursework: ["HTML/CSS/JavaScript", "Vue.js", "Java & Spring Boot", "SQL/MySQL/PostgreSQL", "Git & GitHub", "Agile Development"]
   }];
   const certifications = [{
     name: "AWS Certified Developer",
