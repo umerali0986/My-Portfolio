@@ -42,12 +42,7 @@ const About = () => {
               
               <p>Skilled in building responsive and scalable web applications using Java, JavaScript, HTML, CSS, and modern frameworks, with practical knowledge in developing REST APIs and user interfaces. A collaborative team player with hands-on experience in agile environments, testing automation, and delivering solutionsthat make a difference. What excites me most about development is the opportunity to transform ideas into reality, creating applications that solve real-world problems and improve people's lives.</p>
               
-              <p>
-                When I'm not coding, you'll find me contributing to open-source projects, 
-                writing technical articles, or exploring the latest in tech innovation. 
-                I believe in continuous learning and staying ahead of the curve in this 
-                ever-evolving field.
-              </p>
+              <p>I believe in continuous learning and staying ahead of the curve in this ever-evolving field. Currently seeking a Junior Software Developer role to implement my technincal and soft skills at a company while ensuring that I deliver solutions that not only meet current standards but also anticipate future needs.</p>
             </div>
 
             <div className="pt-4">
