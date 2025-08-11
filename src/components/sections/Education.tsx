@@ -60,7 +60,7 @@ const Education = () => {
                           {edu.degree}
                         </h3>
                          <p className="text-primary font-medium text-lg">
-                           University of Madras
+                           Tech Elevator
                          </p>
                       </div>
                     </div>
