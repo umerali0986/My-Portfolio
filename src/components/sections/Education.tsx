@@ -9,7 +9,7 @@ const Education = () => {
     period: "2018-2021",
     gpa: "3.8/4.0",
     highlights: ["Summa Cum Laude", "Dean's List (6 semesters)", "Computer Science Excellence Award"],
-    coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Machine Learning", "Web Development", "Mobile Development"]
+    coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Java & JavaScript", "Web Development", "Mobile Development"]
   }, {
     degree: "Full-Stack Web Development Bootcamp",
     institution: "Tech Elevator",
