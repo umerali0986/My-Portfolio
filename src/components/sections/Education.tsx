@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 const Education = () => {
   const educationData = [{
     degree: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
+    institution: "University of Madras",
     location: "San Francisco, CA",
     period: "2018-2021",
     gpa: "3.8/4.0",
@@ -12,9 +12,9 @@ const Education = () => {
     coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Machine Learning", "Web Development", "Mobile Development"]
   }, {
     degree: "Full-Stack Web Development Bootcamp",
-    institution: "TechBootcamp",
+    institution: "Tech Elevator",
     location: "Online",
-    period: "2017",
+    period: "2024",
     gpa: "Certificate",
     highlights: ["Top 5% of cohort", "Outstanding Project Award", "Peer Mentor"],
     coursework: ["HTML/CSS/JavaScript", "React & Redux", "Node.js & Express", "MongoDB", "Git & GitHub", "Agile Development"]
@@ -58,7 +58,7 @@ const Education = () => {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           {edu.degree}
                         </h3>
-                         <p className="text-primary font-medium text-lg">Tech Elevator</p>
+                         <p className="text-primary font-medium text-lg">{edu.institution}</p>
                       </div>
                     </div>
 
