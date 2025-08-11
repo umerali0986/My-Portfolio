@@ -64,7 +64,7 @@ const About = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Contributing to the developer community
+                  Problem-solving skills and adaptability to dynamic environments
                 </li>
               </ul>
             </div>
