@@ -6,7 +6,7 @@ const Education = () => {
     degree: "Bachelor of Science in Computer Science",
     institution: "University of Technology",
     location: "San Francisco, CA",
-    period: "2018-2021",
+    period: "2024",
     gpa: "3.8/4.0",
     highlights: ["Summa Cum Laude", "Dean's List (6 semesters)", "Computer Science Excellence Award"],
     coursework: ["Data Structures & Algorithms", "Software Engineering", "Database Systems", "Machine Learning", "Web Development", "Mobile Development"]
