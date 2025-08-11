@@ -49,8 +49,7 @@ const Education = () => {
 
         {/* Education Timeline */}
         <div className="space-y-8 mb-16">
-            {educationData.map((edu, index) => (
-              <Card key={index} className="bg-gradient-card border-border/50 card-hover">
+            {educationData.map((edu, index) => <Card key={index} className="bg-gradient-card border-border/50 card-hover">
                 <CardContent className="p-8">
                   <div className="space-y-4">
                     {/* Main Info */}
@@ -59,9 +58,7 @@ const Education = () => {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           {edu.degree}
                         </h3>
-                         <p className="text-primary font-medium text-lg">
-                           Tech Elevator
-                         </p>
+                         <p className="text-primary font-medium text-lg">Tech Elevator</p>
                       </div>
                     </div>
 
@@ -79,17 +76,14 @@ const Education = () => {
                         Key Coursework
                       </h4>
                       <div className="flex flex-wrap gap-2">
-                        {edu.coursework.map((course, idx) => (
-                          <Badge key={idx} variant="secondary" className="text-xs">
+                        {edu.coursework.map((course, idx) => <Badge key={idx} variant="secondary" className="text-xs">
                             {course}
-                          </Badge>
-                        ))}
+                          </Badge>)}
                       </div>
                     </div>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
         </div>
 
         {/* Certifications */}
