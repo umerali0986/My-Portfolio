@@ -20,9 +20,9 @@ const Education = () => {
     coursework: ["HTML/CSS/JavaScript", "Vue.js", "Java & Spring Boot", "SQL/MySQL/PostgreSQL", "Git & GitHub", "Agile Development"]
   }];
   const certifications = [{
-    name: "AWS Certified Developer",
-    issuer: "Amazon Web Services",
-    year: "2023",
+    name: "DevOps",
+    issuer: "Udemy",
+    year: "2025",
     credential: "DVA-C01"
   }, {
     name: "Google Cloud Professional",
