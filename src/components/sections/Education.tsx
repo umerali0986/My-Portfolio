@@ -25,13 +25,13 @@ const Education = () => {
     year: "2025",
     credential: "DVA-C01"
   }, {
-    name: "Google Cloud Professional",
-    issuer: "Google Cloud",
-    year: "2023",
+    name: "Java Course",
+    issuer: "Udemy",
+    year: "2021",
     credential: "GCP-PCD"
   }, {
-    name: "React Developer Certification",
-    issuer: "Meta",
+    name: "Android Oreo Developer Course",
+    issuer: "Udemy",
     year: "2022",
     credential: "META-RDC"
   }];
