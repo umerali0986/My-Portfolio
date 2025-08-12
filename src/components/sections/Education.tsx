@@ -106,9 +106,7 @@ const Education = () => {
                   <p className="text-muted-foreground text-sm mb-2">
                     Issued: {cert.year}
                   </p>
-                  <Badge variant="secondary" className="text-xs">
-                    {cert.credential}
-                  </Badge>
+                  
                 </CardContent>
               </Card>)}
           </div>
