@@ -141,14 +141,9 @@ const Skills = () => {
                 {category.skills.map((skill, skillIndex) => <div key={skillIndex} className="space-y-2">
                     <div className="flex justify-between items-center">
                       <span className="font-medium text-foreground">{skill.name}</span>
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm text-muted-foreground">{skill.years}</span>
-                        <Badge variant="secondary" className="text-xs">
-                          {skill.level}%
-                        </Badge>
-                      </div>
+                      
                     </div>
-                    <Progress value={skill.level} className="h-2" />
+                    
                   </div>)}
               </CardContent>
             </Card>)}
