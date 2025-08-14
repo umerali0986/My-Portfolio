@@ -6,15 +6,15 @@ const Skills = () => {
     title: "Frontend Development",
     icon: "🎨",
     skills: [{
-      name: "React",
+      name: "JavaScript",
       level: 95,
-      years: "4+ years"
+      years: "5+ years"
     }, {
       name: "TypeScript",
       level: 90,
       years: "3+ years"
     }, {
-      name: "Next.js",
+      name: "Angular",
       level: 85,
       years: "2+ years"
     }, {
@@ -29,6 +29,10 @@ const Skills = () => {
       name: "Tailwind CSS",
       level: 90,
       years: "3+ years"
+    }, {
+      name: "Figma",
+      level: 75,
+      years: "2+ years"
     }]
   }, {
     title: "Backend Development",
