@@ -38,29 +38,33 @@ const Skills = () => {
     title: "Backend Development",
     icon: "⚙️",
     skills: [{
-      name: "Node.js",
+      name: "Java",
       level: 90,
       years: "4+ years"
     }, {
-      name: "Python",
+      name: "Spring Boot",
       level: 85,
       years: "3+ years"
-    }, {
-      name: "Express.js",
-      level: 90,
-      years: "4+ years"
-    }, {
-      name: "Django",
-      level: 75,
-      years: "2+ years"
-    }, {
-      name: "GraphQL",
-      level: 80,
-      years: "2+ years"
     }, {
       name: "REST APIs",
       level: 95,
       years: "4+ years"
+    }, {
+      name: "Microservices",
+      level: 80,
+      years: "2+ years"
+    }, {
+      name: "Junit",
+      level: 85,
+      years: "3+ years"
+    }, {
+      name: "Integration Testing",
+      level: 80,
+      years: "2+ years"
+    }, {
+      name: "Test-Driven Development",
+      level: 85,
+      years: "3+ years"
     }]
   }, {
     title: "Database & Cloud",
