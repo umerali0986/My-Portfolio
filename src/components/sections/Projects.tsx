@@ -30,19 +30,6 @@ const Projects = () => {
       users: "2K+"
     }
   }, {
-    title: "Weather Dashboard",
-    description: "A responsive weather application with location-based forecasts, interactive maps, and detailed analytics. Built with Vue.js and integrated with multiple weather APIs.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-    tech: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
-    github: "#",
-    live: "#",
-    featured: false,
-    stats: {
-      stars: 67,
-      forks: 23,
-      users: "1K+"
-    }
-  }, {
     title: "Social Media Analytics",
     description: "A comprehensive analytics dashboard for social media managers. Features data visualization, automated reporting, and multi-platform integration.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
@@ -69,17 +56,17 @@ const Projects = () => {
       users: "8K+"
     }
   }, {
-    title: "Employee Management System",
-    description: "A full-stack application for employee management with CRUD operations, data filtering, sorting, and user role management. Built with Angular, Spring Boot, and MySQL with comprehensive testing.",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
-    tech: ["Angular", "TypeScript", "Java", "Spring Boot", "MySQL", "JUnit"],
+    title: "Weather Dashboard",
+    description: "A responsive weather application with location-based forecasts, interactive maps, and detailed analytics. Built with Vue.js and integrated with multiple weather APIs.",
+    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
+    tech: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
     github: "#",
     live: "#",
     featured: false,
     stats: {
-      stars: 112,
-      forks: 56,
-      users: "2.5K+"
+      stars: 67,
+      forks: 23,
+      users: "1K+"
     }
   }, {
     title: "Cryptocurrency Tracker",
