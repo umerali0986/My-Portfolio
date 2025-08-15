@@ -69,6 +69,19 @@ const Projects = () => {
       users: "8K+"
     }
   }, {
+    title: "Employee Management System",
+    description: "A full-stack application for employee management with CRUD operations, data filtering, sorting, and user role management. Built with Angular, Spring Boot, and MySQL with comprehensive testing.",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+    tech: ["Angular", "TypeScript", "Java", "Spring Boot", "MySQL", "JUnit"],
+    github: "#",
+    live: "#",
+    featured: false,
+    stats: {
+      stars: 112,
+      forks: 56,
+      users: "2.5K+"
+    }
+  }, {
     title: "Cryptocurrency Tracker",
     description: "Real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
     image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&h=600&fit=crop",
