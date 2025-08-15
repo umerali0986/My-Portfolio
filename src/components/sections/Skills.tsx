@@ -106,28 +106,36 @@ const Skills = () => {
     title: "Tools & Others",
     icon: "🛠️",
     skills: [{
-      name: "Git",
-      level: 95,
-      years: "5+ years"
-    }, {
-      name: "Jest",
-      level: 85,
-      years: "3+ years"
-    }, {
-      name: "Webpack",
-      level: 75,
-      years: "2+ years"
-    }, {
-      name: "Figma",
-      level: 70,
-      years: "2+ years"
-    }, {
       name: "Agile/Scrum",
       level: 90,
       years: "3+ years"
     }, {
-      name: "CI/CD",
-      level: 80,
+      name: "SDLC",
+      level: 85,
+      years: "4+ years"
+    }, {
+      name: "Git",
+      level: 95,
+      years: "5+ years"
+    }, {
+      name: "GitHub",
+      level: 90,
+      years: "4+ years"
+    }, {
+      name: "Intellij IDEA",
+      level: 85,
+      years: "3+ years"
+    }, {
+      name: "Postman",
+      level: 90,
+      years: "3+ years"
+    }, {
+      name: "VS Code",
+      level: 95,
+      years: "4+ years"
+    }, {
+      name: "Figma",
+      level: 75,
       years: "2+ years"
     }]
   }];
