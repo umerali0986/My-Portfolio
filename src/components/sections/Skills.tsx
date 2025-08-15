@@ -67,7 +67,7 @@ const Skills = () => {
       years: "3+ years"
     }]
   }, {
-    title: "Database & Cloud",
+    title: "Database & DevOps",
     icon: "☁️",
     skills: [{
       name: "MongoDB",
