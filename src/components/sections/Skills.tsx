@@ -139,7 +139,7 @@ const Skills = () => {
       years: "2+ years"
     }]
   }];
-  const technologies = ["JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Node.js", "Python", "Express.js", "Django", "MongoDB", "PostgreSQL", "AWS", "Docker", "Git", "GraphQL", "REST API", "Tailwind CSS", "Sass", "Jest", "Webpack", "Vite", "Firebase", "Supabase", "Vercel"];
+  const technologies = ["JavaScript", "TypeScript", "Angular", "Vue.js", "HTML/CSS", "Tailwind CSS", "Java", "Spring Boot", "REST APIs", "Microservices", "Junit", "Integration Testing", "Test-Driven Development", "MySQL", "PostgreSQL", "AWS", "CI/CD", "Docker", "Kubernetes", "Jenkins", "Linux", "Agile/Scrum", "SDLC", "Git", "GitHub", "Intellij IDEA", "Postman", "VS Code", "Figma"];
   return <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
