@@ -4,10 +4,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [{
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, payment processing, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    tech: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+    title: "TE-Gram App",
+    description: "A secure and maintainable Instagram clone built with Java, Spring Boot, Vue.js, and PostgreSQL. Features include image uploads, user authentication, responsive UI design, and RESTful APIs with comprehensive testing using JUnit and Postman.",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
+    tech: ["Java", "Spring Boot", "Vue.js", "PostgreSQL", "JUnit", "Git"],
     github: "#",
     live: "#",
     featured: true,
