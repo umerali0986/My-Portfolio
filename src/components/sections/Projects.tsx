@@ -30,17 +30,17 @@ const Projects = () => {
       users: "2K+"
     }
   }, {
-    title: "Social Media Analytics",
-    description: "A comprehensive analytics dashboard for social media managers. Features data visualization, automated reporting, and multi-platform integration.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-    tech: ["React", "D3.js", "Python", "Flask", "PostgreSQL"],
+    title: "Tenmo App",
+    description: "A financial transaction tracking application built with Java, Spring Boot, and PostgreSQL to simulate Venmo functionalities. Features secure API endpoints, real-time transaction tracking, and robust user authentication.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+    tech: ["Java", "Spring Boot", "PostgreSQL", "REST APIs", "Postman", "SQL"],
     github: "#",
     live: "#",
     featured: false,
     stats: {
-      stars: 156,
-      forks: 78,
-      users: "3K+"
+      stars: 89,
+      forks: 34,
+      users: "1.8K+"
     }
   }, {
     title: "Learning Management System",
