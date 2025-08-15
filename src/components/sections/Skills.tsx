@@ -70,7 +70,7 @@ const Skills = () => {
     title: "Database & DevOps",
     icon: "☁️",
     skills: [{
-      name: "MongoDB",
+      name: "MySQL",
       level: 85,
       years: "3+ years"
     }, {
@@ -82,17 +82,25 @@ const Skills = () => {
       level: 85,
       years: "2+ years"
     }, {
-      name: "Google Cloud",
-      level: 75,
-      years: "1+ year"
+      name: "CI/CD",
+      level: 80,
+      years: "2+ years"
     }, {
       name: "Docker",
       level: 80,
       years: "2+ years"
     }, {
-      name: "Firebase",
-      level: 85,
+      name: "Kubernetes",
+      level: 75,
       years: "2+ years"
+    }, {
+      name: "Jenkins",
+      level: 75,
+      years: "2+ years"
+    }, {
+      name: "Linux",
+      level: 85,
+      years: "3+ years"
     }]
   }, {
     title: "Tools & Others",
