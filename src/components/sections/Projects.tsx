@@ -146,10 +146,7 @@ const Projects = () => {
                         </a>
                       </Button>
                       <Button size="sm" className="bg-gradient-primary" asChild>
-                        <a href={project.live} className="flex items-center gap-2">
-                          <ExternalLink className="w-4 h-4" />
-                          Live Demo
-                        </a>
+                        
                       </Button>
                     </div>
                   </div>
@@ -181,16 +178,7 @@ const Projects = () => {
                   <div className="flex items-center justify-between">
                     <h4 className="font-semibold text-foreground">{project.title}</h4>
                   </div>
-                  <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1">
-                      <Star className="w-3 h-3" />
-                      {project.stats.stars}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <GitFork className="w-3 h-3" />
-                      {project.stats.forks}
-                    </span>
-                  </div>
+                  
                 </CardHeader>
 
                 <CardContent className="pt-0">
