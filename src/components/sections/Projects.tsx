@@ -43,17 +43,17 @@ const Projects = () => {
       users: "1.8K+"
     }
   }, {
-    title: "Learning Management System",
-    description: "An educational platform with course creation, student progress tracking, and interactive assessments. Built for scalability and user engagement.",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
-    tech: ["Angular", "NestJS", "MongoDB", "Socket.io"],
+    title: "Virtual Vending Machine",
+    description: "A command-line vending machine simulation built with Java and JUnit. Features comprehensive error handling, purchase pattern analysis for inventory optimization, and automated data logging for operational records.",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
+    tech: ["Java", "JUnit", "File I/O", "Exception Handling", "Data Analysis"],
     github: "#",
     live: "#",
     featured: false,
     stats: {
-      stars: 203,
-      forks: 91,
-      users: "8K+"
+      stars: 124,
+      forks: 67,
+      users: "2.1K+"
     }
   }, {
     title: "Employee Management System",
