@@ -69,6 +69,19 @@ const Projects = () => {
       users: "2.5K+"
     }
   }, {
+    title: "E-commerce Platform",
+    description: "A modern e-commerce application built with Java Spring Boot backend and Angular frontend. Features include product catalog, shopping cart, and user management. Currently in development with additional features coming soon.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+    tech: ["Java", "Spring Boot", "Angular", "TypeScript", "CSS"],
+    github: "#",
+    live: "#",
+    featured: false,
+    stats: {
+      stars: 187,
+      forks: 92,
+      users: "4.1K+"
+    }
+  }, {
     title: "Note App",
     description: "A comprehensive note-taking application that allows users to create, edit, delete, and save notes as favorites. Built with a full-stack approach using modern frameworks and robust database management.",
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
