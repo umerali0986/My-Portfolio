@@ -69,17 +69,17 @@ const Projects = () => {
       users: "2.5K+"
     }
   }, {
-    title: "Cryptocurrency Tracker",
-    description: "Real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
-    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&h=600&fit=crop",
-    tech: ["React Native", "Redux", "CoinGecko API", "Firebase"],
+    title: "Note App",
+    description: "A comprehensive note-taking application that allows users to create, edit, delete, and save notes as favorites. Built with a full-stack approach using modern frameworks and robust database management.",
+    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+    tech: ["Spring Boot", "Angular", "Vue.js", "Java", "TypeScript", "PostgreSQL"],
     github: "#",
     live: "#",
     featured: false,
     stats: {
-      stars: 98,
-      forks: 45,
-      users: "4K+"
+      stars: 156,
+      forks: 78,
+      users: "3.2K+"
     }
   }];
   const featuredProjects = projects.filter(project => project.featured);
