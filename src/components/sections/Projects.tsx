@@ -71,7 +71,7 @@ const Projects = () => {
   }, {
     title: "E-commerce Platform",
     description: "A modern e-commerce application built with Java Spring Boot backend and Angular frontend. Features include product catalog, shopping cart, and user management. Currently in development with additional features coming soon.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+    image: "/lovable-uploads/96434b64-d247-404e-b04c-ddea33495807.png",
     tech: ["Java", "Spring Boot", "Angular", "TypeScript", "CSS"],
     github: "#",
     live: "#",
