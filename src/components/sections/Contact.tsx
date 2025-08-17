@@ -6,10 +6,16 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+
+  // EmailJS configuration - Replace these with your actual EmailJS credentials
+  const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID"; // Replace with your EmailJS service ID
+  const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // Replace with your EmailJS template ID  
+  const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY"; // Replace with your EmailJS public key
 
   const contactInfo = [
     {
@@ -57,16 +63,55 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
 
-    toast({
-      title: "Message sent successfully!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
+    // Check if EmailJS credentials are configured
+    if (EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" || 
+        EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID" || 
+        EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY") {
+      toast({
+        title: "Configuration Required",
+        description: "Please configure your EmailJS credentials in the Contact component to enable email sending.",
+        variant: "destructive",
+      });
+      setIsSubmitting(false);
+      return;
+    }
 
-    setIsSubmitting(false);
-    (e.target as HTMLFormElement).reset();
+    try {
+      // Send email using EmailJS
+      const templateParams = {
+        from_name: formData.get('name'),
+        from_email: formData.get('email'),
+        subject: formData.get('subject'),
+        message: formData.get('message'),
+        to_email: 'umer.ali0986@gmail.com', // Your email where you want to receive messages
+      };
+
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_PUBLIC_KEY
+      );
+
+      toast({
+        title: "Message sent successfully!",
+        description: "Thank you for reaching out. I'll get back to you soon.",
+      });
+
+      form.reset();
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      toast({
+        title: "Failed to send message",
+        description: "There was an error sending your message. Please try again or contact me directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
