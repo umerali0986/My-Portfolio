@@ -19,7 +19,7 @@ const Footer = () => {
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
             <span>and</span>
             <Code className="w-4 h-4 text-primary" />
-            <span>powered by</span>
+            <span>© 2025 Umer Developer. All rights reserved.</span>
             <Coffee className="w-4 h-4 text-amber-500" />
           </div>
 
