@@ -1,11 +1,16 @@
 import { Heart, Code, Coffee } from "lucide-react";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  return <footer className="bg-card/50 border-t border-border/50 py-12">
+
+  return (
+    <footer className="bg-card/50 border-t border-border/50 py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4">
           {/* Logo/Name */}
-          <div className="text-2xl font-bold gradient-text mb-6">Umer Developer</div>
+          <div className="text-2xl font-bold gradient-text mb-6">
+            John Developer
+          </div>
 
           {/* Quote */}
           <blockquote className="text-muted-foreground italic max-w-2xl mx-auto">
@@ -36,6 +41,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;
