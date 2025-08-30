@@ -13,9 +13,9 @@ const Contact = () => {
   const { toast } = useToast();
 
   // EmailJS configuration - Replace these with your actual EmailJS credentials
-  const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID"; // Replace with your EmailJS service ID
-  const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // Replace with your EmailJS template ID  
-  const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY"; // Replace with your EmailJS public key
+  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID; // Replace with your EmailJS service ID
+  const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID; // Replace with your EmailJS template ID  
+  const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY; // Replace with your EmailJS public key
 
   const contactInfo = [
     {
@@ -51,12 +51,7 @@ const Contact = () => {
       href: "https://linkedin.com/in/umer-abubeker",
       username: "Umer Abubeker"
     },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "#",
-      username: "@johndev"
-    }
+
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -67,9 +62,10 @@ const Contact = () => {
     const formData = new FormData(form);
 
     // Check if EmailJS credentials are configured
-    if (EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" || 
-        EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID" || 
-        EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY") {
+    // if (EMAILJS_SERVICE_ID === "service_nuoat3b" || 
+    //     EMAILJS_TEMPLATE_ID === "template_t9niuv2" || 
+    //     EMAILJS_PUBLIC_KEY === "l3IFYBfq5wZpx43IP") {
+    if(!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY){
       toast({
         title: "Configuration Required",
         description: "Please configure your EmailJS credentials in the Contact component to enable email sending.",

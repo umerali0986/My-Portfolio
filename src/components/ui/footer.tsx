@@ -25,7 +25,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm text-muted-foreground pt-4 border-t border-border/30">
-            © {currentYear} John Developer. All rights reserved.
+            © {currentYear} Umer Developer. All rights reserved.
           </div>
 
           {/* Back to top hint */}

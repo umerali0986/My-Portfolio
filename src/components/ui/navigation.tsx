@@ -42,7 +42,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#" className="text-2xl font-bold gradient-text">
-              Portfolio
+              UmerAbu
             </a>
           </div>
 

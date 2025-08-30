@@ -2,13 +2,16 @@ import { ExternalLink, Github, Star, Users, GitFork } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import tegramImage from "@/assets/te-gram.png";
+
 const Projects = () => {
   const projects = [{
     title: "TE-Gram App",
     description: "A secure and maintainable Instagram clone built with Java, Spring Boot, Vue.js, and PostgreSQL. Features include image uploads, user authentication, responsive UI design, and RESTful APIs with comprehensive testing using JUnit and Postman.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
+    image: "/lovable-uploads/te-gram.png",
+    // image: "../../assets/te-gram.png",
     tech: ["Java", "Spring Boot", "Vue.js", "PostgreSQL", "JUnit", "Git"],
-    github: "#",
+    github: "https://github.com/umerali0986/TE-Gram-App",
     live: "#",
     featured: true,
     stats: {
@@ -17,11 +20,11 @@ const Projects = () => {
       users: "5K+"
     }
   }, {
-    title: "Task Management App",
+    title: "ProNet",
     description: "A collaborative project management tool built with Next.js and Supabase. Real-time updates, team collaboration, and advanced filtering capabilities.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    tech: ["Next.js", "Supabase", "TypeScript", "Tailwind"],
-    github: "#",
+    image: "/lovable-uploads/pronet-home.png",
+    tech: ["Java", "Spring Boot", "TypeScript", "Angular", "Agile", "SDLC"],
+    github: "https://github.com/Nextera-LLC/ProNet-App",
     live: "#",
     featured: true,
     stats: {
@@ -34,7 +37,7 @@ const Projects = () => {
     description: "A financial transaction tracking application built with Java, Spring Boot, and PostgreSQL to simulate Venmo functionalities. Features secure API endpoints, real-time transaction tracking, and robust user authentication.",
     image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
     tech: ["Java", "Spring Boot", "PostgreSQL", "REST APIs", "Postman", "SQL"],
-    github: "#",
+    github: "https://github.com/umerali0986/TEnmo-App",
     live: "#",
     featured: false,
     stats: {
@@ -47,7 +50,7 @@ const Projects = () => {
     description: "A command-line vending machine simulation built with Java and JUnit. Features comprehensive error handling, purchase pattern analysis for inventory optimization, and automated data logging for operational records.",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
     tech: ["Java", "JUnit", "File I/O", "Exception Handling", "Data Analysis"],
-    github: "#",
+    github: "https://github.com/umerali0986/Vending-Machine-CLI-App",
     live: "#",
     featured: false,
     stats: {
@@ -58,9 +61,9 @@ const Projects = () => {
   }, {
     title: "Employee Management System",
     description: "A full-stack application for employee management with CRUD operations, data filtering, sorting, and user role management. Built with Angular, Spring Boot, and MySQL with comprehensive testing.",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+    image: "/lovable-uploads/employe-management.png",
     tech: ["Angular", "TypeScript", "Java", "Spring Boot", "MySQL", "JUnit"],
-    github: "#",
+    github: "https://github.com/umerali0986/Employee_Management",
     live: "#",
     featured: false,
     stats: {
@@ -73,7 +76,7 @@ const Projects = () => {
     description: "A modern e-commerce application built with Java Spring Boot backend and Angular frontend. Features include product catalog, shopping cart, and user management. Currently in development with additional features coming soon.",
     image: "/lovable-uploads/96434b64-d247-404e-b04c-ddea33495807.png",
     tech: ["Java", "Spring Boot", "Angular", "TypeScript", "CSS"],
-    github: "#",
+    github: "https://github.com/umerali0986/E-commerce-app",
     live: "#",
     featured: false,
     stats: {
@@ -86,7 +89,7 @@ const Projects = () => {
     description: "A comprehensive note-taking application that allows users to create, edit, delete, and save notes as favorites. Built with a full-stack approach using modern frameworks and robust database management.",
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
     tech: ["Spring Boot", "Angular", "Vue.js", "Java", "TypeScript", "PostgreSQL"],
-    github: "#",
+    github: "https://github.com/umerali0986/Note",
     live: "#",
     featured: false,
     stats: {
@@ -168,9 +171,9 @@ const Projects = () => {
                     <a href={project.github} className="p-2 bg-background/80 backdrop-blur-sm rounded-full hover:bg-background transition-colors">
                       <Github className="w-4 h-4" />
                     </a>
-                    <a href={project.live} className="p-2 bg-background/80 backdrop-blur-sm rounded-full hover:bg-background transition-colors">
+                    {/* <a href={project.live} className="p-2 bg-background/80 backdrop-blur-sm rounded-full hover:bg-background transition-colors">
                       <ExternalLink className="w-4 h-4" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 
@@ -204,7 +207,7 @@ const Projects = () => {
             Want to see more of my work?
           </p>
           <Button variant="outline" size="lg" asChild>
-            <a href="#" className="flex items-center gap-2">
+            <a href="https://github.com/umerali0986?tab=repositories" className="flex items-center gap-2">
               <Github className="w-4 h-4" />
               View All Projects on GitHub
             </a>

@@ -34,10 +34,12 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-800">
+            <a href="/lovable-uploads/Umer_Abubeker_Resume_2025.pdf" download>
             <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity glow-primary">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </Button>
+            </a>
             <Button variant="outline" size="lg" className="border-primary/30 text-primary hover:bg-primary/10" asChild>
               <a href="#projects">View My Work</a>
             </Button>
