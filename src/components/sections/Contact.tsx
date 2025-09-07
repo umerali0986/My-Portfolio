@@ -42,13 +42,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/umerabubeker",
+      href: "https://github.com/umerali0986?tab=repositories",
       username: "@umerabubeker"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/umer-abubeker",
+      href: "https://www.linkedin.com/in/umerabubeker/",
       username: "Umer Abubeker"
     },
 
